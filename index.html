@@ -11,16 +11,22 @@
     <div class="container text-center mt-5">
         <h1 class="fs-1">Dice Game Using <br> Javascript </h1>
   
-        <h1 class="fs-2 p-3 justify-content-center d-flex" id="result"></h1>
-  
+        <div class="card-group mt-5 mx-auto rounded-3 border border-dark"style="width: 7em ";  >
+        <div class="card text-center " >
+        <h1 class="fs-2 p-3" id="result"></h1>
+        </div>
+        </div>
+
+
+
         <button class="btn bg-black text-white rounded-pill px-3 mt-3" onclick="roll()">Roll the Dice</button>
 
 
         <audio src="/roll.wav" id="dice-audio"></audio>
 
-        <script src="app.js"></script>
 
       </div>
+      <script src="app.js"></script>
 
 </body>
 </html>

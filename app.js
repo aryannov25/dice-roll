@@ -1,12 +1,11 @@
 
 let audio = document.getElementById('dice-audio');
-let no = "1,2,3,4,5,6";
 
 roll = () => {
 
     audio.play();
 
-    let toss = Math.random(no);
+    let toss = Math.random();
     
    console.log(toss);
     
